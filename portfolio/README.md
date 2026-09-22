@@ -21,6 +21,10 @@ It demonstrates a small fixed CSV schema. Native spreadsheet import, production-
 
 [SQLite transactions don't make a CSV import safe to retry](sqlite-retries/README.md) is an original synthetic experiment prepared with AI assistance. Read the explanation alongside the runnable Python and recorded output; it distinguishes transaction atomicity from request idempotency and states what the checks do not establish.
 
+## Presentation layout sample
+
+[Morrow Requests](presentation/README.md) is a four-slide fictional business deck, with inline previews, a PDF and an editable PowerPoint containing a native table and chart. All numbers are illustrative. The sample and verification limits are documented.
+
 ## Request a paid pilot
 
 For a small CSV-cleanup job, send the file/row counts, required output, agreed cleaning rules and deadline through [my LinkedIn service page](https://www.linkedin.com/services/page/0a9076347398a204b5/). Scope and price are confirmed before work starts. Keep sensitive files out of public GitHub issues.
