@@ -1,8 +1,8 @@
-# Data cleanup work sample
+# Original work samples
 
 Original work by Abdullah Alsmaeel, created with AI assistance. This is a self-directed demonstration using fictional data.
 
-## Inspect the result
+## Data cleanup — inspect the result
 
 | Input | Clean output | Review queue |
 |---|---|---|
@@ -17,6 +17,12 @@ The sample preserves leading-zero identifiers, applies explicit formatting rules
 
 It demonstrates a small fixed CSV schema. Native spreadsheet import, production-scale performance and customer delivery are outside the verified scope.
 
+## Technical writing sample
+
+[SQLite transactions don't make a CSV import safe to retry](sqlite-retries/README.md) is an original synthetic experiment prepared with AI assistance. Read the explanation alongside the runnable Python and recorded output; it distinguishes transaction atomicity from request idempotency and states what the checks do not establish.
+
 ## Request a paid pilot
 
 For a small CSV-cleanup job, send the file/row counts, required output, agreed cleaning rules and deadline through [my LinkedIn service page](https://www.linkedin.com/services/page/0a9076347398a204b5/). Scope and price are confirmed before work starts. Keep sensitive files out of public GitHub issues.
+
+For a technical article, share the topic, audience and desired length through the same contact route. Scope, editorial requirements and price must be agreed before work begins.

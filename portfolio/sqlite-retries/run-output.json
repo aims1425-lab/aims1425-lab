@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "row_by_row": {
+    "after_failure": 2,
+    "after_retry": 5
+  },
+  "atomic_only": {
+    "after_failure": 0,
+    "after_success": 3,
+    "after_replay": 6
+  },
+  "atomic_receipt": {
+    "after_failure": {
+      "orders": 0,
+      "receipts": 0
+    },
+    "after_success_and_replay": {
+      "orders": 3,
+      "receipts": 1
+    },
+    "changed_bytes_same_key": "rejected_without_changes",
+    "existing_orders_new_key": "rejected_without_orphan_receipt",
+    "total_cents": 600
+  }
+}
