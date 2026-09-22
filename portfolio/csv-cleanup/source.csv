@@ -1,0 +1,19 @@
+item_code,item_name,category,quantity,storage_bin
+00017,  Cable   tray  ,office,12, 0004 
+00018,Pen cup,OFFICE,0,0005
+00019,Document box,storage,7,0010
+00019,Document box,storage,7,0010
+00020,Mouse pad,accessories,5,0006
+00020,Mouse pad,accessories,8,0006
+,Label roll,office,4,0007
+00021,Index cards,office,,0008
+00022,File clips,office,-2,0008
+00023,Desk organizer,OFFICE, 03 ,0009
+ 00023 ,Desk   organizer, office,3,0009
+00024,Shipping tube,storage,2,0011
+00025,Notebook,Stationery,6,0012
+00026,,office,3,0013
+00027,Keyboard rest,accessories,1,0014
+00028,Archive box,storage,10,0015
+00029,USB pouch,accessories,2,0016
+00030,Clipboard,office,4,

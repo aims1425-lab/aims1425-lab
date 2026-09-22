@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "checks_passed": 22,
+  "checks": [
+    "18 source records",
+    "9 clean and 9 exception records",
+    "every source record appears exactly once across both outputs",
+    "clean record set equals independently specified fixture",
+    "all expected exceptions have exact reasons",
+    "exception raw payloads exactly preserved",
+    "duplicates point to their retained source records",
+    "conflicting pair points to each other and never enters clean output",
+    "clean identifiers remain unique strings with leading zeroes",
+    "identifier and bin characters preserved after outer whitespace removal",
+    "zero stays zero; missing quantity remains missing in exceptions",
+    "optional blank bin stays blank",
+    "declared whitespace/category/quantity transformations occur",
+    "changed_fields accurately identifies every changed source field",
+    "clean quantity control total is independently expected 41",
+    "known source quantities reconcile without imputing the blank",
+    "valid row is also withheld when its duplicate key has a missing quantity",
+    "an exact duplicate within a conflict group cannot silently survive",
+    "short identifiers are not padded or merged",
+    "same description under different valid identifiers is not deduplicated",
+    "repeat run produces byte-identical clean and exception CSVs",
+    "verification leaves source bytes unchanged"
+  ],
+  "source_records": 18,
+  "clean_records": 9,
+  "exception_records": 9,
+  "exceptions_by_reason": {
+    "exact_duplicate": 1,
+    "conflicting_identifier": 2,
+    "missing_item_code": 1,
+    "missing_quantity": 1,
+    "invalid_quantity": 1,
+    "normalized_duplicate": 1,
+    "unmapped_category": 1,
+    "missing_item_name": 1
+  },
+  "clean_quantity": 41,
+  "known_source_quantity": 75,
+  "known_exception_quantity": 34,
+  "missing_source_quantity_records": 1,
+  "source_sha256": "be288f6e316f6682474504c06cc4f4b9e3032cecdd882d97e32652cee34ca9ac",
+  "limitations": [
+    "Synthetic fixed-schema demo only.",
+    "CSV has no stored column types: import item_code and storage_bin as Text in spreadsheet software.",
+    "No native spreadsheet import or visual review was performed."
+  ]
+}
