@@ -25,6 +25,10 @@ It demonstrates a small fixed CSV schema. Native spreadsheet import, production-
 
 [Morrow Requests](presentation/README.md) is a four-slide fictional business deck, with inline previews, a PDF and an editable PowerPoint containing a native table and chart. All numbers are illustrative. The sample and verification limits are documented.
 
+## Product analysis sample
+
+[مصلّحك — synthetic mobile-app PRD](product-analysis/README.md) is a self-directed Arabic product-planning exercise with user flows, edge cases, a bounded MVP, technical tradeoffs, and links to official app-store policies. It is not a commissioned or launched app.
+
 ## Request a paid pilot
 
 For a small CSV-cleanup job, send the file/row counts, required output, agreed cleaning rules and deadline through [my LinkedIn service page](https://www.linkedin.com/services/page/0a9076347398a204b5/). Scope and price are confirmed before work starts. Keep sensitive files out of public GitHub issues.
