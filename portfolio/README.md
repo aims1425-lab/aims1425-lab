@@ -1,6 +1,6 @@
 # Original work samples
 
-Original work by Abdullah Alsmaeel, created with AI assistance. This is a self-directed demonstration using fictional data.
+Original demonstrations prepared for Abdullah Alsmaeel, using fictional data.
 
 ## Data cleanup — inspect the result
 
@@ -19,7 +19,7 @@ It demonstrates a small fixed CSV schema. Native spreadsheet import, production-
 
 ## Technical writing sample
 
-[SQLite transactions don't make a CSV import safe to retry](sqlite-retries/README.md) is an original synthetic experiment prepared with AI assistance. Read the explanation alongside the runnable Python and recorded output; it distinguishes transaction atomicity from request idempotency and states what the checks do not establish.
+[SQLite transactions don't make a CSV import safe to retry](sqlite-retries/README.md) is an original synthetic experiment. Read the explanation alongside the runnable Python and recorded output; it distinguishes transaction atomicity from request idempotency and states what the checks do not establish.
 
 The existing synthetic retry checks passed on **Ubuntu 24.04.5, Python 3.12.3 and SQLite 3.45.1**. [Inspect the successful Linux run](https://github.com/aims1425-lab/aims1425-lab/actions/runs/36305456280) and [the exact tested source](https://github.com/aims1425-lab/aims1425-lab/blob/8fed51b4d864880ea5fac70c188c478ecafd5e76/portfolio/sqlite-retries/retry_demo.py): rollback, replay, changed-content rejection and conflicting-order rejection are checked with synthetic data.
 
@@ -35,7 +35,7 @@ The existing synthetic retry checks passed on **Ubuntu 24.04.5, Python 3.12.3 an
 
 Need a clear explanation of a technical passage or Python/SQL example? [Request Technical Rewrite / Code Explanation on Ko-fi](https://ko-fi.com/c/79c9cc4251).
 
-For **USD25**, choose a rewrite of up to **300 words** or an explanation of one public or synthetic Python/SQL example of up to **30 lines**, in **Arabic or English**, with editable text and **one in-scope revision**. Message with the public link or synthetic example and your target reader; scope and delivery date are confirmed before you order. You may cancel before work starts for a full refund. If the agreed work cannot be fulfilled, a full refund will be offered through the original payment method.
+First-order offer: **USD5**, with **one introductory slot**. Choose a rewrite of up to **300 words** or an explanation of one public or synthetic Python/SQL example of up to **30 lines**, in **Arabic or English**, with editable text and **one in-scope revision**. Message with the public link or synthetic example and your target reader; scope and delivery date are confirmed before you order. You may cancel before work starts for a full refund. If the agreed work cannot be fulfilled, a full refund will be offered through the original payment method.
 
 For a small CSV-cleanup job, send the file/row counts, required output, agreed cleaning rules and deadline through [my LinkedIn service page](https://www.linkedin.com/services/page/0a9076347398a204b5/). Scope and price are confirmed before work starts. Keep sensitive files out of public GitHub issues.
 
