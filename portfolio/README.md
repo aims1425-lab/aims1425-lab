@@ -31,6 +31,10 @@ It demonstrates a small fixed CSV schema. Native spreadsheet import, production-
 
 ## Request a paid pilot
 
+Need a clear explanation of a technical passage or Python/SQL example? [Request Technical Rewrite / Code Explanation on Ko-fi](https://ko-fi.com/c/79c9cc4251).
+
+For **USD25**, choose a rewrite of up to **300 words** or an explanation of one public or synthetic Python/SQL example of up to **30 lines**, in **Arabic or English**, with editable text and **one in-scope revision**. Message with the public link or synthetic example and your target reader; scope and delivery date are confirmed before you order. You may cancel before work starts for a full refund. If the agreed work cannot be fulfilled, a full refund will be offered through the original payment method.
+
 For a small CSV-cleanup job, send the file/row counts, required output, agreed cleaning rules and deadline through [my LinkedIn service page](https://www.linkedin.com/services/page/0a9076347398a204b5/). Scope and price are confirmed before work starts. Keep sensitive files out of public GitHub issues.
 
 For a technical article, share the topic, audience and desired length through the same contact route. Scope, editorial requirements and price must be agreed before work begins.
