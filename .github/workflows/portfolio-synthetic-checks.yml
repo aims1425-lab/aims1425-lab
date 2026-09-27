@@ -1,0 +1,37 @@
+name: Pinned published SQLite sample on Ubuntu
+
+on:
+  push:
+    paths:
+      - ".github/workflows/portfolio-synthetic-checks.yml"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  sqlite-demo:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - name: Download the existing published sample at a fixed commit
+        run: >-
+          curl --fail --silent --show-error --location
+          https://raw.githubusercontent.com/aims1425-lab/aims1425-lab/8fed51b4d864880ea5fac70c188c478ecafd5e76/portfolio/sqlite-retries/retry_demo.py
+          --output retry_demo.py
+      - name: Verify the exact reviewed Git blob before execution
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          from pathlib import Path
+
+          data = Path("retry_demo.py").read_bytes()
+          blob = b"blob " + str(len(data)).encode("ascii") + b"\0" + data
+          digest = hashlib.sha1(blob).hexdigest()
+          if digest != "f4fbd65c8464619d30e40e4853a218bd5d6ad71e":
+              raise SystemExit(f"Unexpected source blob: {digest}")
+          print(f"Verified published source blob: {digest}")
+          PY
+      - name: Run the original synthetic interruption and replay checks
+        run: |
+          python3 --version
+          python3 retry_demo.py
