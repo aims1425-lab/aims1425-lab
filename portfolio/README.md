@@ -21,6 +21,8 @@ It demonstrates a small fixed CSV schema. Native spreadsheet import, production-
 
 [SQLite transactions don't make a CSV import safe to retry](sqlite-retries/README.md) is an original synthetic experiment prepared with AI assistance. Read the explanation alongside the runnable Python and recorded output; it distinguishes transaction atomicity from request idempotency and states what the checks do not establish.
 
+The existing synthetic retry checks passed on **Ubuntu 24.04.5, Python 3.12.3 and SQLite 3.45.1**. [Inspect the successful Linux run](https://github.com/aims1425-lab/aims1425-lab/actions/runs/36305456280) and [the exact tested source](https://github.com/aims1425-lab/aims1425-lab/blob/8fed51b4d864880ea5fac70c188c478ecafd5e76/portfolio/sqlite-retries/retry_demo.py): rollback, replay, changed-content rejection and conflicting-order rejection are checked with synthetic data.
+
 ## Presentation layout sample
 
 [Morrow Requests](presentation/README.md) is a four-slide fictional business deck, with inline previews, a PDF and an editable PowerPoint containing a native table and chart. All numbers are illustrative. The sample and verification limits are documented.
